@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Mail/etc/email_templates.xsd">
+    <template id="custom_order_shipped_email_template"
+              label="Order Shipped Email"
+              file="order_shipped.html"
+              type="html"
+              module="Vendor_CustomOrderProcessing"
+              area="frontend"/>
+</config>

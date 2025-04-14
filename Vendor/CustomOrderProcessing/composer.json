@@ -1,0 +1,19 @@
+{
+    "name": "vendor/custom-order-processing",
+    "description": "Custom Order Processing Module",
+    "require": {
+      "php": "^7.4 || ^8.1",
+      "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Vendor\\CustomOrderProcessing\\": ""
+      }
+    }
+  }
+  
