@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Vendor_CustomOrderProcessing::order_status_history" 
+             title="Order Status Logs" 
+             module="Vendor_CustomOrderProcessing" 
+             sortOrder="100" 
+             parent="Magento_Sales::sales_operation" 
+             resource="Magento_Sales::sales"/>
+        <add id="Vendor_CustomOrderProcessing::history_grid" 
+             title="Status History" 
+             module="Vendor_CustomOrderProcessing" 
+             sortOrder="10" 
+             parent="Vendor_CustomOrderProcessing::order_status_history" 
+             action="customorderprocessing/history" 
+             resource="Magento_Sales::sales"/>
+    </menu>
+</config>
