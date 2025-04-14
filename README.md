@@ -1,4 +1,4 @@
-# **⚠️ Note: I am a Magento frontend developer. I do not have deep backend knowledge, but I have tried my best to complete this assessment as per the instructions. I hope this effort will be considered for the next round. Thank you!**
+# **⚠️ Note: I am a Magento frontend developer with limited backend knowledge, but I have made every effort to complete this assessment as per the instructions. Thank you!**
 
 # Vendor_CustomOrderProcessing
 
